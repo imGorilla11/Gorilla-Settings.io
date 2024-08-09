@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorilla Tag Mod Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .menu-container {
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            color: white;
+            width: 300px;
+        }
+
+        .menu-container h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .menu-item {
+            margin: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu-item label {
+            font-size: 18px;
+        }
+
+        .menu-item input[type="checkbox"] {
+            transform: scale(1.5);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: #aaa;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-container">
+        <h1>Mod Menu</h1>
+        <div class="menu-item">
+            <label for="mod1">No Clip</label>
+            <input type="checkbox" id="mod1">
+        </div>
+        <div class="menu-item">
+            <label for="mod2">Fly Mode</label>
+            <input type="checkbox" id="mod2">
+        </div>
+        <div class="menu-item">
+            <label for="mod3">Speed Boost</label>
+            <input type="checkbox" id="mod3">
+        </div>
+        <div class="menu-item">
+            <label for="mod4">God Mode</label>
+            <input type="checkbox" id="mod4">
+        </div>
+        <div class="menu-item">
+            <label for="mod5">Teleport</label>
+            <input type="checkbox" id="mod5">
+        </div>
+        <div class="footer">
+            <p>Created by YourName</p>
+            <a href="https://github.com/YourGitHubUsername/GorillaTagModMenu" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+</b
+
